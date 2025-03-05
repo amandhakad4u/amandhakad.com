@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="fav.png" type="image/png">
+    <title>Aman Dhakad</title>
+
+</head>
+
+<body>
+
+
+
+
+
+
+
+
+
+    <!-- Navbar Section -->
+<nav class="navbar">
+        <div class="container">
+            <div class="page">
+              <img src="aman.png" alt="Profile" class="circle-image">
+                <a href="#about" class="nav-link">Aman Dhakad</a>
+            </div>
+            <div class="page">
+                <a href="#overview" class="nav-link">About</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#project" class="nav-link">Projects</a>
+                <a href="#certificates" class="nav-link">Certification</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+        </div>
+</nav>
+
+    <!-- Intro Section -->
+<div class="intro" id="about">
+        <video autoplay muted loop id="background-video">
+            <source src="bacintro.MOV" type="video/mp4" />
+            Your browser does not support the video tag.
+        </video>
+        <div class="intro-container">
+            <h1 class="big-heading">Hello I'm<br>Aman Dhakad</h1>
+            <div class="btn-container">
+              <a href="resume.pdf" class="btn btn-download" download>Download My CV</a>
+              <a href="#contact" class="btn btn-hire">Hire Me</a>
+            </div>
+          </div>
+
+</div>
+
+<section class="overview" id="overview">
+      <h2 class="overview-heading">Overview.</h2>
+      <div class="overview-container">
+          <!-- Description Section -->
+          <div class="description">
+              <p>I am a passionate Software Engineer and Master’s student at Illinois Institute of Technology, with expertise in full-stack development, data analysis, and machine learning. My professional experience includes working at HieCOR Software Technologies and Pep Coding Education, where I developed dynamic web applications, optimized databases, and performed data-driven analysis to enhance user engagement and platform performance.
+              <br>I am proficient in technologies like React, Node.js, Django, Python, and AWS. My projects include building an ASL prediction model, creating assistive vision for the visually impaired, and conducting sentiment analysis for U.S. elections. I am committed to solving real-world problems with innovative technology and continuously advancing my skills in software development and data analytics.
+          </div>
+          
+          <!-- <h1 class="expertise-heading">My Expertise in</h1> -->
+          <!-- Wrapper for Cards -->
+          <div class="wrapper">
+              <div class="card">WEB DEVELOPMENT</div>
+              <div class="card">MACHINE LEARNING</div>
+              <div class="card">DEEP LEARNING</div>
+              <div class="card">ARTIFICIAL INTELLIGENCE</div>
+          </div>
+      </div>
+</section>
+
+
+<div class="journey-container" id="experience">
+  <h1>My Tech Journey</h1>
+  
+  <div class="journey-timeline">
+      <div class="timeline-year" onclick="toggleJourneyContent('2018-2022')">
+          Bechlor of Technology
+          <span class="timeline-year-span">2018-2022</span>
+      </div>
+      <div class="timeline-year" onclick="toggleJourneyContent('2021')">
+        Software Engineering intern
+          <span class="timeline-year-span">2021</span>
+      </div>
+      <div class="timeline-year" onclick="toggleJourneyContent('2022')">
+        Software Engineer
+          <span class="timeline-year-span">2022</span>
+      </div>
+      <div class="timeline-year" onclick="toggleJourneyContent('2023-2024')">
+        Master of Science
+          <span class="timeline-year-span">2023-2024</span>
+      </div>
+
+  </div>
+  
+  <div class="journey-content-container">
+      <div class="journey-content" id="2018-2022">
+
+          <!-- Image Logo -->
+          <img src="rgpv.png" alt="Logo" class="journey-logo">
+      
+          <!-- First Heading -->
+          <h1>Bachelor of Technology, Computer Science and Engineering</h1>
+      
+          <!-- Second Heading -->
+          <h2>Rajiv Gandhi Proudyogiki Vishwavidyalaya</h2>
+      
+          <!-- Four Points -->
+          <ul>
+            <li>Completed a comprehensive curriculum in computer science, focusing on programming, algorithms, and software development.</li>
+            <li>Engaged in multiple project-based assignments, strengthening hands-on experience in web development, database management, and system design.</li>
+            <li>Collaborated in a team of peers for various academic projects, emphasizing communication and teamwork skills.</li>
+            <li>Achieved a strong academic standing with a focus on technology-driven problem solving, leading to a successful transition into the workforce.</li>
+          </ul>
+      </div>
+      
+      <div class="journey-content" id="2021">
+          <!-- Image Logo -->
+          <img src="pepcoding.png" alt="Logo" class="journey-logo">
+      
+          <!-- First Heading -->
+          <h1>Software Engineering Inretn</h1>
+      
+          <!-- Second Heading -->
+          <h2>Pep Coding Education</h2>
+      
+          <!-- Four Points -->
+          <ul>
+            <li>Gained advanced knowledge in web development, machine learning, database management systems, and project management, maintaining a high GPA of 3.8/4.</li>
+            <li>Conducted projects focused on database security, data warehousing, and machine learning, aligning academic learning with industry needs.</li>
+            <li>Developed proficiency in project management techniques, contributing to improved task prioritization and team collaboration.</li>
+            <li>Participated in real-world problem-solving scenarios through coursework, enabling a seamless application of theoretical knowledge to practical projects.</li>
+          </ul>
+      </div>
+
+      <div class="journey-content" id="2022">
+          <!-- Image Logo -->
+          <!-- <img src="iitc.png" alt="Logo" class="journey-logo"> -->
+      
+          <!-- First Heading -->
+          <h1>Software Engineer</h1>
+      
+          <!-- Second Heading -->
+          <h2>HieCOR Software Technologies</h2>
+      
+          <!-- Four Points -->
+          <ul>
+            <li>Analyzed user behavior and performance metrics of over 800 online students, resulting in a 15% increase in student retention by improving platform features.</li>
+            <li>Designed and optimized database queries, improving data retrieval speed and accuracy while managing data storage for better reporting capabilities.</li>
+            <li>Contributed to marketing efforts by creating actionable insights using Tableau, leading to a 20% increase in targeted marketing outcomes.</li>
+            <li>Collaborated with cross-functional teams to implement data models in PostgreSQL, streamlining decision-making across the platform.</li>
+          </ul>
+      </div>
+
+      <div class="journey-content" id="2023-2024">
+          <!-- Image Logo -->
+          <img src="iitc.png" alt="Logo" class="journey-logo">
+      
+          <!-- First Heading -->
+          <h1>Master of Science, Information Technology and Management</h1>
+      
+          <!-- Second Heading -->
+          <h2>Illinois Institute of Technology, GPA 3.8/4</h2>
+          
+      
+          <!-- Four Points -->
+          <ul>
+            <li>Developed and debugged dynamic user interfaces using React, JavaScript, and Node.js to improve user experiences for a wide user base.</li>
+            <li>Built and optimized server-side applications with Node.js, Express, and Django, improving API response times and overall processing efficiency.</li>
+            <li>Worked with SQL databases to optimize queries and reduce retrieval times, enhancing data access for over 1,000 users.</li>
+            <li>Contributed to Agile sprints, collaborated with cross-functional teams, and participated in code version management with Git to ensure smooth project delivery.</li>
+          </ul>
+    </div>
+  </div>
+</div>
+
+
+<div class="page-container" id="project">
+    <div class="project-section">
+        <h1>PROJECT</h1>
+    </div>
+
+    <!-- Tiles Container -->
+    <div class="tiles-container">
+        <!-- Tile 1 -->
+        <div class="tile">
+            <div class="image-section">
+                <img src="vision.jpg" alt="Image 1">
+            </div>
+            <div class="content-section">
+                <h3>assistive vision</h3>
+                <p>Helps visually impaired users with object detection and audio feedback. Enhances accessibility through AI-driven image processing.</p>
+            </div>
+            <div class="button-section">
+              <a href="https://github.com/amandhakad4u?tab=repositories">
+                <button></button>
+            </a>
+            </div>
+        </div>
+
+        <!-- Tile 2 -->
+        <div class="tile">
+            <div class="image-section">
+                <img src="shopingweb.jpg" alt="Image 2">
+            </div>
+            <div class="content-section">
+                <h3>E-Commerce Website</h3>
+                <p>Allows online shopping with cart and payment features. Provides a seamless user experience with secure transactions.</p>
+            </div>
+            <div class="button-section">
+              <a href="https://github.com/amandhakad4u?tab=repositories">
+                <button></button>
+            </a>
+            </div>
+        </div>
+
+        <!-- Tile 3 -->
+        <div class="tile">
+            <div class="image-section">
+                <img src="bitcoin.jpg" alt="Image 3">
+            </div>
+            <div class="content-section">
+                <h3>prediction model</h3>
+                <p>Forecasts outcomes using machine learning. Analyzes data patterns to improve decision-making.</p>
+            </div>
+            <div class="button-section">
+              <a href="https://github.com/amandhakad4u?tab=repositories">
+                <button></button>
+            </a>
+            </div>
+        </div>
+
+        <!-- Tile 4 -->
+        <div class="tile">
+            <div class="image-section">
+                <img src="asl.jpg" alt="Image 4">
+            </div>
+            <div class="content-section">
+                <h3>ASL Alphabet Recognition</h3>
+                <p>Uses AI to translate sign language into text or speech. Bridges the communication gap for the hearing impaired.</p>
+            </div>
+            <div class="button-section">
+              <a href="https://github.com/amandhakad4u?tab=repositories">
+                <a href="https://github.com/amandhakad4u?tab=repositories">
+                  <button></button>
+              </a>
+            </a>
+
+            </div>
+        </div>
+
+        <!-- Tile 5 -->
+        <div class="tile">
+            <div class="image-section">
+                <img src="facerecog.jpg" alt="Image 5">
+            </div>
+            <div class="content-section">
+                <h3>CV face Recognition</h3>
+                <p>Identifies faces and manages attendance systems. Enhances security with real-time facial authentication.</p>
+            </div>
+            <div class="button-section">
+              <a href="https://github.com/amandhakad4u?tab=repositories">
+                <button></button>
+            </a>
+            </div>
+        </div>
+
+        <!-- Tile 6 -->
+        <div class="tile">
+          <div class="image-section">
+              <img src="portfolio.jpg" alt="Image 5">
+          </div>
+          <div class="content-section">
+              <h3>Portfolio site</h3>
+              <p>ersonal website that showcases my work, projects, and expertise. Highlights my skills and achievements in a professional format.</p>
+          </div>
+          <div class="button-section">
+            <a href="https://github.com/amandhakad4u?tab=repositories">
+              <button></button>
+          </a>
+          </div>
+      </div>
+    </div>
+</div>
+
+
+<section class="certification-section" id="certificates">
+  <div class="certification-header">
+      <img src="certification.png" alt="Logo">
+      <p>Certifications I have done</p>
+  </div>
+  <div class="certificates">
+      <a href="https://example.com/cert1" target="_blank"><img src="google_data_analytics.png" alt="Certificate 1"></a>
+
+  </div>
+</section>
+
+
+<section class="contact-section" id="contact">
+  <h2>Get in Touch</h2>
+  <p>We'd love to hear from you! Drop your details below and we'll get back to you soon.</p>
+
+  <form id="contact-form">
+    <div class="form-row">
+      <label for="name">Your Name</label>
+      <input type="text" id="name" name="name" class="half-width" required>
+    </div>
+    
+    <div class="form-row">
+      <label for="email">Your Email</label>
+      <input type="email" id="email" name="email" class="half-width" required>
+    </div>
+
+    <div class="form-row">
+      <label for="message">Your Message</label>
+      <textarea id="message" name="message" required></textarea>
+    </div>
+
+    <button type="button" onclick="sendEmail()">Send Message</button>
+</form>
+
+  <!-- Social Links Section -->
+  <div class="social-links">
+    <a href="https://github.com/amandhakad4u" target="_blank" class="github">
+      <i class="fab fa-github"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/aman-dhakad-87b3571b3/" target="_blank" class="linkedin">
+      <i class="fab fa-linkedin"></i>
+    </a>
+    <a href="https://www.instagram.com/aman____dhakad/" target="_blank" class="instagram">
+      <i class="fab fa-instagram"></i>
+    </a>
+    <a href="tel:+13125363802" class="call">
+      <i class="fas fa-phone"></i>
+    </a>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+  function toggleJourneyContent(contentId) {
+      var content = document.getElementById(contentId);
+      var allContents = document.querySelectorAll('.journey-content');
+      allContents.forEach(function(c) {
+          if (c !== content) {
+              c.classList.remove('active-content');
+          }
+      });
+      content.classList.toggle('active-content');
+  }
+</script>
+<script>
+        // Card Hover Animation
+        const cards = document.querySelectorAll('.card');
+
+        cards.forEach((card) => {
+            card.addEventListener('mousemove', (e) => {
+                const { width, height } = card.getBoundingClientRect();
+                const x = e.clientX - card.offsetLeft - width / 3;
+                const y = e.clientY - card.offsetTop - height / 3;
+
+                const tiltX = (y / height) * 3;
+                const tiltY = -(x / width) * 3;
+
+                card.style.transform = `perspective(1000px) rotateX(${tiltX}deg) rotateY(${tiltY}deg)`;
+            });
+
+            card.addEventListener('mouseleave', () => {
+                card.style.transform = 'perspective(1000px) rotateX(0deg) rotateY(0deg)';
+            });
+        });
+</script>
+<script>
+          // Cursor tilt effect for tiles
+          const tiles = document.querySelectorAll('.tile');
+  
+          tiles.forEach(tile => {
+              tile.addEventListener('mousemove', (e) => {
+                  const tileRect = tile.getBoundingClientRect();
+                  const tileCenterX = tileRect.left + tileRect.width / 2;
+                  const tileCenterY = tileRect.top + tileRect.height / 2;
+  
+                  const deltaX = e.clientX - tileCenterX;
+                  const deltaY = e.clientY - tileCenterY;
+  
+                  const maxTilt = 20; // Maximum tilt angle
+                  const maxZRotation = 15; // Maximum Z-axis rotation (for spinning effect)
+  
+                  const tiltX = (deltaY / tileRect.height) * maxTilt;
+                  const tiltY = -(deltaX / tileRect.width) * maxTilt;
+                  const tiltZ = (deltaX / tileRect.width) * maxZRotation;
+  
+                  tile.style.transform = `rotateX(${tiltX}deg) rotateY(${tiltY}deg) rotateZ(${tiltZ}deg)`;
+              });
+  
+              tile.addEventListener('mouseleave', () => {
+                  tile.style.transform = 'rotateX(0deg) rotateY(0deg) rotateZ(0deg)';
+              });
+          });
+  
+          // Scroll Event for Scroll Animation Effect
+          window.addEventListener('scroll', function() {
+              const tiles = document.querySelectorAll('.tile');
+              tiles.forEach(tile => {
+                  const rect = tile.getBoundingClientRect();
+                  const isInView = rect.top <= window.innerHeight && rect.bottom >= 0;
+  
+                  if (isInView) {
+                      tile.classList.add('visible');
+                  }
+              });
+          });
+</script>
+<script>
+  function sendEmail() {
+    let name = document.getElementById("name").value;
+    let email = document.getElementById("email").value;
+    let message = document.getElementById("message").value;
+    
+    let mailtoLink = `mailto:amandhakad4u@gmail.com?subject=Contact from ${name}&body=Email: ${email}%0D%0A%0D%0A${message}`;
+    
+    window.location.href = mailtoLink;
+  }
+</script>
+</body>
+
+</html>
